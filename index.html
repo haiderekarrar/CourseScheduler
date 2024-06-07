@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduler</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find a schedule!</h1>
+        <form id="courseForm">
+            <label for="courses">Select Your Courses:</label><br>
+            <select id="courses" multiple>
+                <!-- Options will be dynamically populated -->
+            </select><br>
+            <button type="submit">Generate Schedules</button>
+        </form>
+        <div id="scheduleResults"></div>
+    </div>
+    <footer>
+        Copyright © 2024 by Haider Gilani
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
